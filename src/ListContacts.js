@@ -51,9 +51,9 @@ class ListContacts extends Component {
         {showingContacts.length !== contacts.length &&
           <div className="showing-contacts">
             <span>
-              Showing {showingContacts.length} of {contacts.length} contacts
+              Showing {showingContacts.length} of {contacts.length} contacts.
             </span>
-            <button onClick={this.clearQuery}>show all</button>
+            <button onClick={this.clearQuery}>Show all</button>
           </div>}
 
         <ol className="contact-list">
