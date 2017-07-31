@@ -53,7 +53,7 @@ class ListContacts extends Component {
             <span>
               Now showing {showingContacts.length} of {contacts.length} contacts
             </span>
-            <button onClick={this.clearQuery}>show all contacts</button>
+            <button onClick={this.clearQuery}>show all</button>
           </div>}
 
         <ol className="contact-list">
