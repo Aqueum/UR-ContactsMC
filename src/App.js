@@ -27,7 +27,7 @@ class App extends Component {
             onDeleteContact={this.removeContact}
             contacts={this.state.contacts}
           />}
-        {this.state.screen === 'list' && <CreateContact />}
+        {this.state.screen === 'create' && <CreateContact />}
       </div>
     );
   }
