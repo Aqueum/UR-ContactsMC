@@ -77,7 +77,7 @@ class ListContacts extends Component {
                 onClick={() => onDeleteContact(contact)}
                 className="contact-remove"
               >
-                Remove
+                Delete
               </button>
             </li>
           )}
